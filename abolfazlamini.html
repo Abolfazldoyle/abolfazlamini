@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تقویم</title>
+
+</head>
+
+<body>
+
+    <div id="taghvim">
+
+        <p id="rooz"></p>
+
+        <p id="matn-rooz"></p>
+
+    </div>
+
+    <script lnguage="javascript" type="text/javascript">
+
+        let day;
+        let matn;
+        switch (new Date().getDay()) {
+            case 0:
+                day = "یک شنبه";
+                matn = "سلام به تو هموطن";
+                break;
+            case 1:
+                day = "دو شنبه";
+                matn = "روز زیبایی بهشتی دوشنبه مبارک";
+                break;
+            case 2:
+                day = "سه شنبه";
+                matn= "روزی پر از خوشی رو براتون ارزو مندم "
+                break;
+            case 3:
+                day = "چهارشنبه";
+                matn = "امیدوارم روز قشنگ و پر پولی رو داشته باشی";
+                break;
+            case 4:
+                day = "پنج شنبه";
+                matn = "از روز تعطیلت استفاده کن و عشق و حال کن ";
+                break;
+            case 5:
+                day = "جمعه";
+                matn = "جمعه  وقت استراحت و اماده شدن برای هفته بعدیه";
+                break;
+            case 6:
+                day = "شنبه";
+                matn = "پر قدرت اول هفته است رو شروع کن ";
+        }
+        document.getElementById("taghvim").style.textAlign="center";
+        document.getElementById("rooz").innerHTML = day;
+        document.getElementById("matn-rooz").innerHTML = matn;
+
+        </script>
+
+    </body>
+
+</html>
+        
