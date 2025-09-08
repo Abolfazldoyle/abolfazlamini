@@ -1,2 +1,2 @@
-# abolfazlamini
+# Academic project
  پروژه های درس طراحی وب  دانشگاه شهید شمسی پور
